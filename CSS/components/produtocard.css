@@ -11,12 +11,12 @@
 .produtocard
 {
     text-decoration: none;
-    margin: 15px;
-    width: 220px;
+    margin: 20px;
+    width: 280px;
 }
 .cardimg
 {
-    height: 230px;
-    width: 220px;
+    height: 290px;
+    width: 280px;
     border-radius: 10px;
 }
