@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body
+{
+    background-color: #00BA61;
+    margin: 0px;
+    padding: 0px;
+    height: 90vh;
+    font-family: 'Poppins', sans-serif;
+}
+.section1
+{
+    background-color: white;
+    width: 100%;
+    height: 110vh;
+    margin-top: 40vh;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: absolute;
+}
+.header1
+{
+    width: 100%;
+    height: 30vh;
+    margin: 0px;
+    position: fixed;
+}
+.topheader
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 35px;
+    color: white;
+}
+.icon
+{
+    cursor: pointer;
+    margin: 20px;
+    color: white;
+}
+.tittle1
+{
+    color: white;
+    font-weight: 400;
+    margin: 0px 20px;
+}
+.tittle2
+{
+    color: white;
+    font-weight: 500;
+    margin: 0px 20px;
+}
+.dt1
+{
+    font-size: 25px;
+}
+.valor
+{
+    margin: 0px;
+    font-size: 42px;
+    font-weight: 500;
+}
+.dl1
+{
+    margin: 20px;
+}
+.topsection
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: -205px;
+    transition: 0.5s;
+}
+.sectionimg1
+{
+    height: 400px;
+    width: 380px;
+    border-radius: 20px;
+    filter: drop-shadow(10px 0px 5px #00000094);
+}
+.midsection
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.selectcolor
+{
+    display: flex;
+    margin: 10px 0px 0px 0px;
+}
+.color
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    cursor: pointer;
+    margin: 0px 30px 0px 0px;
+}
+#color1
+{
+    background-color: #753E0C;
+}
+#color2
+{
+    background-color: #AB7D42;
+}
+#color3
+{
+    background-color: #F05A05;
+    margin-right: 0px;
+}
+.color.selected
+{
+    border: solid 2px black;
+}
+.selectsize
+{
+    display: flex;
+    margin: 10px 0px 0px 0px;
+    font-size: 35px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.produtodescription
+{
+    text-align: center;
+    padding: 0px 12vw 0px 12vw;
+    color: black;
+}
+.addremove
+{
+    background-color: transparent;
+    height: 24px;
+    width: 38px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border: solid 1px black;
+}
+#totalcart
+{
+    border: 0px;
+    text-align: center;
+    justify-content: center;
+    font-size: 19px;
+    width: 40px;
+}
+#totalcart:focus
+{
+    outline-width: 0px;
+}
+.bottomsection
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.like
+{
+    color: #df1d3e;
+    font-size: 80px;
+    cursor: pointer;
+    margin-right: 5vw;
+}
+.editcart
+{
+    margin-left: 12vw;
+}
+.addtocart
+{
+    background-color: transparent;
+    font-size: 40px;
+    width: 100px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.finnaly
+{
+    display: flex;
+    justify-content: space-around;
+}
+.buy
+{
+    background-color: #00d66f;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    width: 40vw;
+    height: 70px;
+    border-radius: 20px;
+    cursor: pointer;
+}
